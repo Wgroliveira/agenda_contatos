@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color:#d9dcd6 ;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header img{
+    margin-left: 36px;
+    height: 164px;
+    margin-right: 16px;
+}
+
+header h1{
+    margin-left: 36px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+  align-items: 30px;
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 56px;
+}
+   
+form input {
+    margin: 2px;
+    padding: 8px;
+    align-items: left;
+    font-size: 24px;
+    background-color: #ffedd8;
+    color: ##ffedd8;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+ form button {
+    background-color: #ffedd8;
+    color:  #d4a276;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+}    
+
+table {
+    margin-left: 36px;
+    width: 56%;
+}
+
+table th {
+    text-align: left;
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+#calendar {
+    font-family: Arial, sans-serif;
+    max-width: 960px;
+    width: 56%;
+    padding: 32px;
+}
+
+#calendar table {
+    width: 100%;
+}
+
+#calendar th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#calendar td {
+    text-align: left;
+}
+
+#calendar .current-day {
+    background-color:  #ffedd8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
